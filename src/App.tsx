@@ -1,12 +1,8 @@
-import './App.css'
+import AppRouter from './routes/AppRouter';
+import './index.css';
 
 function App() {
-
-  return (
-    <>
-      <h1>Agencia de Turismo xyz</h1>
-    </>
-  )
+  return <AppRouter />;
 }
 
-export default App
+export default App;
