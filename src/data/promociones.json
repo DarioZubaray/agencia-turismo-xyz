@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "titulo": "Viaje a Caribe",
+    "descripcion": "7 días en playas paradisíacas con todo incluido.",
+    "precio": "$1,200",
+    "imagen": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?w=800&h=600&fit=crop"
+  },
+  {
+    "id": 2,
+    "titulo": "Tour por Europa",
+    "descripcion": "Explora ciudades históricas en 10 días.",
+    "precio": "$2,500",
+    "imagen": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=800&h=600&fit=crop"
+  },
+  {
+    "id": 3,
+    "titulo": "Aventura en Amazonía",
+    "descripcion": "Excursiones ecológicas y safaris.",
+    "precio": "$800",
+    "imagen": "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&h=600&fit=crop"
+  },
+  {
+    "id": 4,
+    "titulo": "Expedición al Sahara",
+    "descripcion": "Camping en dunas con guías expertos.",
+    "precio": "$1,500",
+    "imagen": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=800&h=600&fit=crop"
+  }
+]
