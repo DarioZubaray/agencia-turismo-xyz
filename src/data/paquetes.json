@@ -1,0 +1,257 @@
+[
+    {
+        "id": 1,
+        "destino": "Caribe",
+        "ubicacion": "Caribe",
+        "descripcion": "Playa paradisíaca con todo incluido",
+        "precio": 1200,
+        "imagen": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?w=800&h=600&fit=crop",
+        "duracionDias": 7,
+        "tipoViaje": "Playa",
+        "serviciosIncluidos": {
+            "hospedaje": true,
+            "transporte": true,
+            "pension": true
+        }
+    },
+    {
+        "id": 2,
+        "destino": "Europa",
+        "ubicacion": "Europa",
+        "descripcion": "Tour por ciudades históricas",
+        "precio": 2500,
+        "imagen": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=800&h=600&fit=crop",
+        "duracionDias": 10,
+        "tipoViaje": "Cultural",
+        "serviciosIncluidos": {
+            "hospedaje": true,
+            "transporte": true,
+            "pension": false
+        }
+    },
+    {
+        "id": 3,
+        "destino": "Amazonía",
+        "ubicacion": "Amazonía",
+        "descripcion": "Excursiones ecológicas",
+        "precio": 800,
+        "imagen": "https://cdn.pixabay.com/photo/2020/07/15/06/23/amazonie-5406522_1280.jpg",
+        "duracionDias": 5,
+        "tipoViaje": "Aventura",
+        "serviciosIncluidos": {
+            "hospedaje": true,
+            "transporte": false,
+            "pension": false
+        }
+    },
+    {
+        "id": 4,
+        "destino": "Sahara",
+        "ubicacion": "Sahara",
+        "descripcion": "Camping en dunas",
+        "precio": 1500,
+        "imagen": "https://cdn.pixabay.com/photo/2023/12/04/19/45/camel-8430227_1280.jpg",
+        "duracionDias": 6,
+        "tipoViaje": "Aventura",
+        "serviciosIncluidos": {
+            "hospedaje": true,
+            "transporte": true,
+            "pension": true
+        }
+    },
+    {
+        "id": 7,
+        "destino": "Antártida",
+        "ubicacion": "Antártida",
+        "descripcion": "Camping en hielo",
+        "precio": 5000,
+        "imagen": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?w=800&h=600&fit=crop",
+        "duracionDias": 10,
+        "tipoViaje": "Aventura",
+        "serviciosIncluidos": {
+            "hospedaje": true,
+            "transporte": true,
+            "pension": true
+        }
+    },
+    {
+        "id": 8,
+        "destino": "Gobi",
+        "ubicacion": "Gobi, Mongolia",
+        "descripcion": "Exploración en estepas",
+        "precio": 1200,
+        "imagen": "https://cdn.pixabay.com/photo/2022/10/17/18/22/yak-7528421_960_720.jpg",
+        "duracionDias": 8,
+        "tipoViaje": "Aventura",
+        "serviciosIncluidos": {
+            "hospedaje": true,
+            "transporte": true,
+            "pension": true
+        }
+    },
+    {
+        "id": 9,
+        "destino": "Atacama",
+        "ubicacion": "Atacama, Chile",
+        "descripcion": "Observación de estrellas",
+        "precio": 1600,
+        "imagen": "https://cdn.pixabay.com/photo/2013/01/11/01/22/landscape-74572_1280.jpg",
+        "duracionDias": 5,
+        "tipoViaje": "Aventura",
+        "serviciosIncluidos": {
+            "hospedaje": true,
+            "transporte": true,
+            "pension": true
+        }
+    },
+    {
+        "id": 10,
+        "destino": "Namib",
+        "ubicacion": "Namib, Namibia",
+        "descripcion": "Ascenso a dunas",
+        "precio": 1400,
+        "imagen": "https://cdn.pixabay.com/photo/2018/11/22/18/17/elephant-3832516_1280.jpg",
+        "duracionDias": 6,
+        "tipoViaje": "Aventura",
+        "serviciosIncluidos": {
+            "hospedaje": true,
+            "transporte": true,
+            "pension": true
+        }
+    },
+    {
+        "id": 11,
+        "destino": "Sydney",
+        "ubicacion": "Sydney, Australia",
+        "descripcion": "Safari en el desierto",
+        "precio": 1700,
+        "imagen": "https://cdn.pixabay.com/photo/2024/12/28/05/28/sydney-9295243_1280.jpg",
+        "duracionDias": 7,
+        "tipoViaje": "Aventura",
+        "serviciosIncluidos": {
+            "hospedaje": true,
+            "transporte": true,
+            "pension": true
+        }
+    },
+    {
+        "id": 12,
+        "destino": "Wadi Rum",
+        "ubicacion": "Wadi Rum, Jordania",
+        "descripcion": "Camping beduino",
+        "precio": 1100,
+        "imagen": "https://cdn.pixabay.com/photo/2020/04/22/20/05/wadi-rum-5079834_1280.jpg",
+        "duracionDias": 4,
+        "tipoViaje": "Aventura",
+        "serviciosIncluidos": {
+            "hospedaje": true,
+            "transporte": true,
+            "pension": true
+        }
+    },
+    {
+        "id": 13,
+        "destino": "Death Valley",
+        "ubicacion": "Death Valley, EE.UU.",
+        "descripcion": "Exploración en cañones",
+        "precio": 1300,
+        "imagen": "https://cdn.pixabay.com/photo/2018/02/05/23/05/death-valley-3133502_1280.jpg",
+        "duracionDias": 5,
+        "tipoViaje": "Aventura",
+        "serviciosIncluidos": {
+            "hospedaje": true,
+            "transporte": true,
+            "pension": true
+        }
+    },
+    {
+        "id": 14,
+        "destino": "Ártico",
+        "ubicacion": "Ártico, Noruega",
+        "descripcion": "Camping en tundra",
+        "precio": 2500,
+        "imagen": "https://cdn.pixabay.com/photo/2019/09/05/07/23/village-4453338_1280.jpg",
+        "duracionDias": 6,
+        "tipoViaje": "Aventura",
+        "serviciosIncluidos": {
+            "hospedaje": true,
+            "transporte": true,
+            "pension": true
+        }
+    },
+    {
+        "id": 15,
+        "destino": "Sonoran",
+        "ubicacion": "Sonoran, EE.UU.",
+        "descripcion": "Senderismo con cactus",
+        "precio": 1000,
+        "imagen": "https://cdn.pixabay.com/photo/2017/09/04/18/50/saguaro-2714996_1280.jpg",
+        "duracionDias": 4,
+        "tipoViaje": "Aventura",
+        "serviciosIncluidos": {
+            "hospedaje": true,
+            "transporte": true,
+            "pension": true
+        }
+    },
+    {
+        "id": 16,
+        "destino": "Thar",
+        "ubicacion": "Thar, India",
+        "descripcion": "Paseo en camellos",
+        "precio": 900,
+        "imagen": "https://cdn.pixabay.com/photo/2020/03/10/17/42/cultivation-4919690_960_720.jpg",
+        "duracionDias": 5,
+        "tipoViaje": "Aventura",
+        "serviciosIncluidos": {
+            "hospedaje": true,
+            "transporte": true,
+            "pension": true
+        }
+    },
+    {
+        "id": 17,
+        "destino": "Victoria",
+        "ubicacion": "Great Victoria, Australia",
+        "descripcion": "Aventura en dunas rojas",
+        "precio": 1500,
+        "imagen": "https://cdn.pixabay.com/photo/2017/08/20/21/01/tram-2663174_1280.jpg",
+        "duracionDias": 6,
+        "tipoViaje": "Aventura",
+        "serviciosIncluidos": {
+            "hospedaje": true,
+            "transporte": true,
+            "pension": true
+        }
+    },
+    {
+        "id": 18,
+        "destino": "Arabia",
+        "ubicacion": "Arabian Desert, Emiratos Árabes",
+        "descripcion": "Noche en el desierto",
+        "precio": 1200,
+        "imagen": "https://cdn.pixabay.com/photo/2021/09/26/11/54/architecture-6657475_1280.jpg",
+        "duracionDias": 3,
+        "tipoViaje": "Aventura",
+        "serviciosIncluidos": {
+            "hospedaje": true,
+            "transporte": true,
+            "pension": true
+        }
+    },
+    {
+        "id": 19,
+        "destino": "Mojave",
+        "ubicacion": "Mojave, EE.UU.",
+        "descripcion": "Exploración en Joshua Tree",
+        "precio": 1100,
+        "imagen": "https://cdn.pixabay.com/photo/2025/02/25/04/25/desert-9429492_1280.jpg",
+        "duracionDias": 5,
+        "tipoViaje": "Aventura",
+        "serviciosIncluidos": {
+            "hospedaje": true,
+            "transporte": true,
+            "pension": true
+        }
+    }
+]

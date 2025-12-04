@@ -1,3 +1,5 @@
+import SearchBar from "./SearchBar";
+
 const HeroSection = () => {
   return (
     <div className="relative flex items-center justify-center min-h-[calc(100vh-4rem)]">
@@ -14,10 +16,10 @@ const HeroSection = () => {
         <h2 className="text-5xl md:text-7xl font-bold text-gray-800 mb-8 drop-shadow-lg">
           Viajes Inolvidables a tu Alcance
         </h2>
-        
-        <button className="px-8 py-4 bg-green-500 text-white text-xl rounded-lg shadow-xl hover:bg-green-600 transform hover:scale-105 transition duration-300">
-          Regístrate y Empieza tu Aventura
-        </button>
+
+        <div className="container mx-auto px-4 mb-12">
+          <SearchBar />
+        </div>
         
         {/* Decorative Elements */}
         <div className="mt-12 flex justify-center space-x-4">

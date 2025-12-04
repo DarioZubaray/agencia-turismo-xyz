@@ -5,6 +5,7 @@ import ServiciosScreen from '../screens/ServiciosScreen';
 import ContactoScreen from '../screens/ContactoScreen';
 import LoginScreen from '../screens/LoginScreen';
 import RegisterScreen from '../screens/RegisterScreen';
+import BusquedaScreen from '../screens/BusquedaScreen';
 import { AuthProvider } from '../context/AuthContext';
 
 function AppRouter() {
@@ -18,6 +19,7 @@ function AppRouter() {
           <Route path="/contacto" element={<ContactoScreen />} />
           <Route path="/login" element={<LoginScreen />} />
           <Route path="/register" element={<RegisterScreen />} />
+          <Route path="/buscar" element={<BusquedaScreen />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </AuthProvider>
