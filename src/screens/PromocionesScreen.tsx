@@ -38,7 +38,7 @@ function PromocionesScreen() {
         }}
       >
         {/* Overlay oscuro para mejorar legibilidad */}
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/85 via-blue-800/80 to-blue-900/85"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/85 via-blue-600/80 to-blue-600/85"></div>
       </div>
 
       <Navbar />

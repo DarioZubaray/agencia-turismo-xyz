@@ -8,11 +8,24 @@ const ContactoScreen = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-blue-100">
+    <div className="min-h-screen relative flex flex-col">
+      {/* Imagen de fondo con overlay */}
+      <div 
+        className="fixed inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: "url('https://cdn.pixabay.com/photo/2020/05/24/23/44/hands-5216585_1280.jpg')",
+          zIndex: -1
+        }}
+      >
+        {/* Overlay oscuro para mejorar legibilidad */}
+        <div className="absolute inset-0 bg-gradient-to-br from-white-900/85 via-blue-800/80 to-white-900/85"></div>
+      </div>
+
       <Navbar />
-      <div className="py-16">
+
+      <div className="flex-grow py-16">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-5xl font-bold text-center text-gray-800 mb-12">
+          <h1 className="text-5xl font-bold text-center text-white mb-12">
             Contáctanos
           </h1>
           
