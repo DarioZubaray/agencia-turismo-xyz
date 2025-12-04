@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import type { Paquete } from '../types/paquete.types';
 
 interface PaqueteCardProps {
@@ -5,6 +6,12 @@ interface PaqueteCardProps {
 }
 
 function PaqueteCard({ paquete }: PaqueteCardProps) {
+  const navigate = useNavigate();
+
+  const handleVerDetalle = () => {
+    navigate(`/paquete/${paquete.id}`);
+  };
+
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transform hover:-translate-y-2 transition duration-300">
       {/* Imagen */}
@@ -59,7 +66,8 @@ function PaqueteCard({ paquete }: PaqueteCardProps) {
             ${paquete.precio}
           </span>
           <div className="flex gap-2">
-            <button className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition text-sm font-semibold">
+            <button className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition text-sm font-semibold"
+                onClick={handleVerDetalle}>
               Elegir Paquete
             </button>
             <button className="px-4 py-2 border border-red-500 text-red-500 rounded hover:bg-red-500 hover:text-white transition text-sm font-semibold">

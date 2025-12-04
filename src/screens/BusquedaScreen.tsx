@@ -46,7 +46,17 @@ function BusquedaScreen() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50">
+    <div className="min-h-screen flex flex-col relative">
+      {/* Fondo con imagen */}
+      <div 
+        className="fixed inset-0 bg-cover bg-center"
+        style={{
+          backgroundImage: "url('https://images.unsplash.com/photo-1488085061387-422e29b40080?w=1920&h=1080&fit=crop')",
+          zIndex: -1
+        }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/88 via-indigo-900/85 to-blue-900/88"></div>
+      </div>
       <Navbar />
       
       <div className="flex-grow py-8">
@@ -209,10 +219,10 @@ function BusquedaScreen() {
             {/* Resultados */}
             <main className="lg:col-span-3">
               <div className="mb-6">
-                <h1 className="text-3xl font-bold text-gray-800 mb-2">
+                <h1 className="text-3xl font-bold text-white mb-2">
                   Resultados de Búsqueda
                 </h1>
-                <p className="text-gray-600">
+                <p className="text-gray-300">
                   {loading ? 'Buscando...' : `${paquetes.length} paquete(s) encontrado(s)`}
                 </p>
               </div>

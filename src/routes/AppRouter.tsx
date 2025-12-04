@@ -7,6 +7,7 @@ import LoginScreen from '../screens/LoginScreen';
 import RegisterScreen from '../screens/RegisterScreen';
 import BusquedaScreen from '../screens/BusquedaScreen';
 import { AuthProvider } from '../context/AuthContext';
+import PaqueteDetalleScreen from '../screens/PaqueteDetalleScreen';
 
 function AppRouter() {
   return (
@@ -20,6 +21,7 @@ function AppRouter() {
           <Route path="/login" element={<LoginScreen />} />
           <Route path="/register" element={<RegisterScreen />} />
           <Route path="/buscar" element={<BusquedaScreen />} />
+          <Route path="/paquete/:id" element={<PaqueteDetalleScreen />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </AuthProvider>
