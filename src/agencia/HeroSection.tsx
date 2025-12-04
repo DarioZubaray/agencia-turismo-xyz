@@ -3,7 +3,7 @@ const HeroSection = () => {
     <div className="relative flex items-center justify-center min-h-[calc(100vh-4rem)]">
       {/* Background Image Overlay */}
       <div 
-        className="absolute inset-0 bg-cover bg-center opacity-20"
+        className="absolute inset-0 bg-cover bg-center opacity-75"
         style={{
           backgroundImage: "url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1600&h=900&fit=crop')"
         }}
