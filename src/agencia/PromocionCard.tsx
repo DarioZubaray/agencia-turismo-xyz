@@ -1,12 +1,10 @@
-export type Promocion = {
-    id: string,
-    imagen: string,
-    titulo: string,
-    descripcion: string,
-    precio: number
+import type { Promocion } from "../types/promocion.types";
+
+export type PromocionProps = {
+    promocion: Promocion
 }
 
-function PromocionCard({promocion}: any) {
+function PromocionCard({promocion}: PromocionProps) {
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transform hover:-translate-y-2 transition duration-300">
       {/* Imagen de fondo */}

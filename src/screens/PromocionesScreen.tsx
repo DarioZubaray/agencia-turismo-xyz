@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
 import Navbar from '../shared/Navbar';
 import Footer from '../shared/Footer';
-import PromocionCard, { type Promocion } from '../agencia/PromocionCard';
+import PromocionCard from '../agencia/PromocionCard';
 import { promocionesService } from '../services/promocionesService';
+import type { Promocion } from '../types/promocion.types';
 
 function PromocionesScreen() {
   const [promociones, setPromociones] = useState<any>([]);
@@ -27,16 +28,28 @@ function PromocionesScreen() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-blue-100">
+    <div className="min-h-screen relative">
+      {/* Imagen de fondo con overlay */}
+      <div 
+        className="fixed inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: "url('https://cdn.pixabay.com/photo/2021/11/10/18/52/sale-6784621_1280.jpg')",
+          zIndex: -1
+        }}
+      >
+        {/* Overlay oscuro para mejorar legibilidad */}
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/85 via-blue-800/80 to-blue-900/85"></div>
+      </div>
+
       <Navbar />
       
       <div className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Título */}
-          <h1 className="text-5xl font-bold text-center text-blue-600 mb-4">
+          <h1 className="text-5xl font-bold text-center text-white mb-4">
             Promociones Destacadas
           </h1>
-          <p className="text-center text-gray-600 mb-12 text-lg">
+          <p className="text-center text-gray-200 mb-12 text-lg">
             Descubre nuestras mejores ofertas y vive experiencias inolvidables
           </p>
 
