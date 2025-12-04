@@ -19,10 +19,11 @@ export const paquetesService = {
         p.descripcion.toLowerCase().includes(destinoLower)
       );
     }
-
+    const presupuestoMax = filtros.presupuestoMax ?? Infinity;
+    const duracionDias = filtros.duracionDias ?? Infinity;
     // Filtrar por presupuesto máximo
-    if (filtros.presupuestoMax && filtros.presupuestoMax > 0) {
-      resultados = resultados.filter(p => p.precio <= filtros.presupuestoMax);
+    if (presupuestoMax > 0) {
+      resultados = resultados.filter(p => p.precio <= presupuestoMax);
     }
 
     // Filtrar por tipo de viaje
@@ -31,8 +32,8 @@ export const paquetesService = {
     }
 
     // Filtrar por duración
-    if (filtros.duracionDias && filtros.duracionDias > 0) {
-      resultados = resultados.filter(p => p.duracionDias <= filtros.duracionDias);
+    if (duracionDias > 0) {
+      resultados = resultados.filter(p => p.duracionDias <= duracionDias);
     }
 
     // Filtrar por servicios incluidos
